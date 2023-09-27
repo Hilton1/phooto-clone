@@ -1,5 +1,5 @@
 import Button from '@mui/material/Button';
-import { CardContinue } from '../CardContinue';
+import { CardContinue } from './CardContinue';
 
 export function CardsContinue() {
   return (

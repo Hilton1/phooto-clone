@@ -6,7 +6,9 @@ export function Editor() {
   return (
     <>
       <Header />
+
       <CardsContinue />
+
       <CardsVoucher />
     </>
   );
