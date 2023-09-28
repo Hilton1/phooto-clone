@@ -4,8 +4,6 @@ import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 import { useState } from 'react';
 import fotos from '../../../../../assets/fotos.png';
 
-import { Button } from '../../../../components/Button';
-
 export function CardVoucher() {
   const [expanded, setExpanded] = useState(false);
 
@@ -76,9 +74,13 @@ export function CardVoucher() {
         </div>
 
         <div className="flex flex-col text-center justify-center">
-          <Button>
+          <button
+            type="button"
+            className="bg-[#f89c1b] text-white font-bold text-[11px] p-1 mx-4"
+          >
             CONTINUAR
-          </Button>
+
+          </button>
         </div>
 
       </div>
